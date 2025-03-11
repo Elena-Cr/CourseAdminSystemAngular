@@ -6,3 +6,15 @@ td {
   text-align: justify;
   padding: 10px;
 }
+span {
+  color: rgb(6, 38, 1);
+  padding: auto;
+}
+b {
+  color: rgb(64, 171, 48);
+  padding: 10px;
+}
+h1 {
+  color: rgb(6, 38, 1);
+  padding: auto;
+}
