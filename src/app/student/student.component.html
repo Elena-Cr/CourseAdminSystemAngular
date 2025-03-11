@@ -1,1 +1,25 @@
-<p>student works!</p>
+@if (student) {
+<div>
+  <b>id:</b><span>{{ student.id }}</span>
+</div>
+<div>
+  <b>First name:</b><span>{{ student.firstName }}</span>
+</div>
+<div>
+  <b>Last name:</b><span>{{ student.lastName }}</span>
+</div>
+<div>
+  <b>Study Program:</b><span>{{ student.studyProgram }}</span>
+</div>
+<div>
+  <b>Date of Birth</b><span>{{ student.dob }}</span>
+</div>
+<div>
+  <b>Email:</b><span>{{ student.email }}</span>
+</div>
+<div>
+  <b>Phone Number:</b> <span>{{ student.phone }}</span>
+</div>
+} @else {
+<p>Nothing to display</p>
+}

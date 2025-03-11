@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Student } from '../model/student';
 
 @Component({
   selector: 'app-student',
@@ -8,5 +9,14 @@ import { Component } from '@angular/core';
   styleUrl: './student.component.css'
 })
 export class StudentComponent {
-
+  student?: Student = {
+    id: 1,
+    firstName: 'Jane',
+    lastName: 'Doe',
+    studyProgram: 1,
+dob: new Date(2000, 1, 1),
+email: 'jane.doe@mailinator.com',
+phone: '+4511111111'
+}
+    
 }
