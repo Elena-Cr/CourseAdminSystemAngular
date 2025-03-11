@@ -11,10 +11,14 @@ span {
   padding: auto;
 }
 b {
-  color: rgb(64, 171, 48);
+  color: rgb(56, 137, 44);
   padding: 10px;
 }
 h1 {
   color: rgb(6, 38, 1);
+  padding: auto;
+}
+h2 {
+  color: rgb(57, 245, 28);
   padding: auto;
 }

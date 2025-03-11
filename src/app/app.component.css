@@ -1,0 +1,28 @@
+table,
+th,
+td {
+  border: 1px solid rgb(30, 69, 4);
+  border-collapse: collapse;
+  text-align: justify;
+  padding: 10px;
+}
+span {
+  color: rgb(6, 38, 1);
+  padding: auto;
+}
+b {
+  color: rgb(64, 171, 48);
+  padding: 10px;
+}
+h1 {
+  color: rgb(6, 38, 1);
+  padding: auto;
+}
+h2 {
+  color: rgb(6, 38, 1);
+  padding: auto;
+}
+li {
+  color: rgb(6, 38, 1);
+  padding: auto;
+}
