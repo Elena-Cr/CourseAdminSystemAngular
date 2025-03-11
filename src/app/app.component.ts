@@ -11,4 +11,5 @@ import { StudentComponent } from './student/student.component';
 })
 export class AppComponent {
   title = 'CourseAdminSystemAngular';
+
 }

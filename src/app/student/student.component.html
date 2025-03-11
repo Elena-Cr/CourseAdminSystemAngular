@@ -1,4 +1,4 @@
-@if (student) {
+@if (student) { @if(mode==0){
 <div>
   <b>id:</b><span>{{ student.id }}</span>
 </div>
@@ -20,6 +20,37 @@
 <div>
   <b>Phone Number:</b> <span>{{ student.phone }}</span>
 </div>
-} @else {
+}@else{
+<table>
+  <tr>
+    <td>Id</td>
+    <td>{{ student.id }}</td>
+  </tr>
+  <tr>
+    <td>First name</td>
+    <td>{{ student.firstName }}</td>
+  </tr>
+  <tr>
+    <td>Last name</td>
+    <td>{{ student.lastName }}</td>
+  </tr>
+  <tr>
+    <td>Study Program</td>
+    <td>{{ student.studyProgram }}</td>
+  </tr>
+  <tr>
+    <td>Date of Birth</td>
+    <td>{{ student.dob }}</td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td>{{ student.email }}</td>
+  </tr>
+  <tr>
+    <td>Phone Number</td>
+    <td>{{ student.phone }}</td>
+  </tr>
+</table>
+} } @else {
 <p>Nothing to display</p>
 }
