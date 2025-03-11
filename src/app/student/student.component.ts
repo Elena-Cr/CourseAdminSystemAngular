@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Student } from '../model/student';
 
 @Component({
@@ -9,7 +9,7 @@ import { Student } from '../model/student';
   styleUrl: './student.component.css',
 })
 export class StudentComponent {
-  student?: Student = {
+  @Input() student?: Student = {
     id: 1,
     firstName: 'Jane',
     lastName: 'Doe',
@@ -18,5 +18,5 @@ export class StudentComponent {
     email: 'jane.doe@mailinator.com',
     phone: '+4511111111',
   };
-  mode: number = 0;
+  @Input() mode: number = 1;
 }

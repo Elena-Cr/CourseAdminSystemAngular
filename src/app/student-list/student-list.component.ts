@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { Student } from '../model/student';
+import { StudentComponent } from '../student/student.component';
 
 @Component({
   selector: 'app-student-list',
   standalone: true,
-  imports: [],
+  imports: [StudentComponent],
   templateUrl: './student-list.component.html',
   styleUrl: './student-list.component.css',
 })
